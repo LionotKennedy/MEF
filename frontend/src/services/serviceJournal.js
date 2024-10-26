@@ -1,6 +1,7 @@
 import { useMutation, useQuery, useQueryClient } from "react-query";
 
-const API_URL = "http://127.0.0.1:9876/api";
+// const API_URL = "http://127.0.0.1:9876/api";
+const API_URL = "https://mef-hvmr.onrender.com/api";
 
 // ******************************START**********************************//
 export const useGetJournals = () => {

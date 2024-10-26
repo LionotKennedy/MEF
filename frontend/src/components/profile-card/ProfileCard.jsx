@@ -149,9 +149,11 @@ const ProfileCard = () => {
 
 const getImageUrl = (image) => {
     if (image.startsWith('uploads_default')) {
-        return `http://127.0.0.1:9876/uploads/${image}`;
+        // return `http://127.0.0.1:9876/uploads/${image}`;
+        return `https://mef-hvmr.onrender.com/uploads/${image}`;
     } else {
-        return `http://127.0.0.1:9876${image}`;
+        // return `http://127.0.0.1:9876${image}`;
+        return `https://mef-hvmr.onrender.com${image}`;
     }
 };
 

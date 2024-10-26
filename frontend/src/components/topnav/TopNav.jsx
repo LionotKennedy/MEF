@@ -97,9 +97,11 @@ const TopNav = ({ onLogout }) => {
 
   const getUserImageSrc = (image) => {
     if (image.startsWith('uploads_default')) {
-      return `http://127.0.0.1:9876/uploads/${image}`;
+      // return `http://127.0.0.1:9876/uploads/${image}`;
+      return `https://mef-hvmr.onrender.com/uploads/${image}`;
     } else {
-      return `http://127.0.0.1:9876${image}`;
+      // return `http://127.0.0.1:9876${image}`;
+      return `https://mef-hvmr.onrender.com${image}`;
     }
   };
 
@@ -145,17 +147,6 @@ const TopNav = ({ onLogout }) => {
   return (
     <div className='topnav'>
       <div className='content__name__app' data-aos="fade-right">
-        {/* <span>D</span>
-        <span>E</span>
-        <span>P</span>
-        <span>A</span>
-        <span>R</span>
-        <span>T</span>
-        <span>-</span>
-        <span>S</span>
-        <span>R</span>
-        <span>S</span>
-        <span>P</span> */}
         <span>Ministère de l'Économie et des Finances</span>
       </div>
       {/* Dialog About */}

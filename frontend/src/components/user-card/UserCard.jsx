@@ -63,9 +63,14 @@ import { useGetUser } from '../../services/serviceUser';
                 className="imageUser"
                 src={
                   user.image.startsWith('uploads_default/')
-                    ? `http://127.0.0.1:9876/uploads/${user.image}` // Si l'image est dans "upload_default/", ajouter "uploads/" devant
-                    : `http://127.0.0.1:9876${user.image}` // Sinon, garder le chemin de l'image tel quel
+                    ? `https://mef-hvmr.onrender.com/uploads/${user.image}` // Si l'image est dans "upload_default/", ajouter "uploads/" devant
+                    : `https://mef-hvmr.onrender.com${user.image}` // Sinon, garder le chemin de l'image tel quel
                 }
+                // src={
+                //   user.image.startsWith('uploads_default/')
+                //     ? `http://127.0.0.1:9876/uploads/${user.image}`
+                //     : `http://127.0.0.1:9876${user.image}` // Sinon, garder le chemin de l'image tel quel
+                // }
                 alt="Profile"
               />
             </div>
