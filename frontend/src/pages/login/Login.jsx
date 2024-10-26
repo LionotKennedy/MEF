@@ -5,8 +5,7 @@ import { RiUserFill, RiLockFill } from 'react-icons/ri';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaCheckCircle } from 'react-icons/fa';
 import "./login.scss";
-// import Loading from '../../components/Loading/Loading';
-import Loading from '/components/Loading/Loading';
+import Loading from '../../components/Loading/Loading';
 import { useLogin, usePasswordReset, useNewPasswordVerification } from '../../services/authServices'; // Importer la fonction de login
 import { getProfile } from '../../services/authServices'; // Importez le service
 import AOS from 'aos';
