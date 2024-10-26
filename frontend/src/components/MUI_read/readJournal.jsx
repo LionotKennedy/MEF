@@ -11,7 +11,8 @@ import Typography from '@mui/material/Typography';
 import { FaTimes } from 'react-icons/fa';
 import { useGetJournalById } from '../../services/serviceJournal';
 import { motion } from 'framer-motion';
-import { Fade } from 'react-reveal';
+// import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 import imageLogo from "../../assets/images/ministere.png";
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({

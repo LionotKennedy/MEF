@@ -15,7 +15,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import { motion } from 'framer-motion'; // Importer motion
-import { Fade } from 'react-reveal';
+// import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

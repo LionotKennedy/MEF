@@ -11,7 +11,8 @@ import Typography from '@mui/material/Typography';
 import { FaTimes } from 'react-icons/fa';
 import { useGetFolderById } from '../../services/serviceFolder';
 import { motion } from 'framer-motion';
-import { Fade } from 'react-reveal';
+// import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 import imageData from "../../assets/images/logo.png";
 import imageLogo from "../../assets/images/ministere.png";
 

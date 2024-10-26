@@ -11,7 +11,8 @@ import Typography from '@mui/material/Typography';
 import { FaTimes } from 'react-icons/fa';
 import { useGetVisaById } from '../../services/serviceVisa';
 import { motion, AnimatePresence } from 'framer-motion'; // Import AnimatePresence
-import { Fade } from 'react-reveal';
+// import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 import imageLogo from "../../assets/images/ministere.png";
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
